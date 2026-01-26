@@ -15,6 +15,14 @@ This interactive script converts GJF files to INP files of ORCA using template f
 > /opt/Multiwfn/Multiwfn
 > ```
 
+## Running the Script
+> 
+> ```bash
+> ./gjf2inp.sh
+> Input "y" and "Enter"
+> ```
+
+
 ## Multiwfn software source
 http://sobereva.com/multiwfn/
 ## Running environment
