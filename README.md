@@ -1,7 +1,7 @@
 # A-simply-interactive-batch-script-for-converting-GJF-files-to-INP-files-of-ORCA
 This interactive script converts GJF files to INP files of ORCA using template files by running Multiwfn
 
-Before running check the location of templated files in your computer, and change it in this script.
+## Before running check the location of templated files in your computer, and change it in this script.
 
 ## location of template files
 > 
@@ -12,5 +12,5 @@ Before running check the location of templated files in your computer, and chang
 ## Check the location of Multiwfn software in your computer
 > 
 > ```bash
-> /opt/Multiwfn/Multiwfn ${inf} << EOF > /dev/null 2>&1
+> /opt/Multiwfn/Multiwfn
 > ```
