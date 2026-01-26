@@ -19,6 +19,7 @@ This interactive script converts GJF files to INP files of ORCA using template f
 ## 4. Running the Script
 > 
 > ```bash
+> chmod +x gjf2inp.sh ## Add execute permission
 > ./gjf2inp.sh
 > Input "y" and "Enter"
 > ```
