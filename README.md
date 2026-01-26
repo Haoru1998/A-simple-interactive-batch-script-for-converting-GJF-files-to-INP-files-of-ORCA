@@ -28,3 +28,8 @@ This interactive script converts GJF files to INP files of ORCA using template f
 http://sobereva.com/multiwfn/
 ## Running environment
 Linux
+## Detailed procedure in Chinese
+简单的交互式脚本将gjf文件批量转化为ORCA的inp文件
+http://bbs.keinsci.com/forum.php?mod=viewthread&tid=58015&fromuid=45027
+(出处: 计算化学公社)
+
