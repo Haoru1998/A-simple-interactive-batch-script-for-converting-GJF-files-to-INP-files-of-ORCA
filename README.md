@@ -3,7 +3,7 @@ This interactive script converts GJF files to INP files of ORCA using template f
 
 ## Before running check the location of templated files in your computer, and change it in this script.
 
-## 1. location of template files
+## 1. Location of folder includes template files
 > 
 > ```bash
 > TEMPLATE_DIR="/home/hao/work/template"
