@@ -14,13 +14,13 @@ echo "1) frequency"
 echo "2) optimization"
 echo "3) optimization frequency"
 echo "4) transition state"
-echo "5) point energy"
+echo "5) single point energy"
 echo "6) IRC"
 echo "7) freeze optimization frequency"
 echo "8) optimization with XTB for openCOSMO-RS"
 echo "9) optimization for openCOSMO-RS"
 echo "10) optimization frequency for openCOSMO-RS"
-echo "11) point energy for openCOSMO-RS"
+echo "11) single point energy for openCOSMO-RS"
 echo ""
 read -p "Select template [1-11]: " choice
 
@@ -46,9 +46,9 @@ case $choice in
         task_prefix="ts"
         ;;
     5) 
-        template_src="${TEMPLATE_DIR}/pe.inp"
+        template_src="${TEMPLATE_DIR}/sp.inp"
         task_type="wB97M-V def2-TZVP pe"
-        task_prefix="pe"
+        task_prefix="sp"
         ;;
     6) 
         template_src="${TEMPLATE_DIR}/irc.inp"
@@ -75,9 +75,9 @@ case $choice in
         task_prefix="RS-optfreq"
         ;;		
     11) 
-        template_src="${TEMPLATE_DIR}/RS-pe.inp"
+        template_src="${TEMPLATE_DIR}/RS-sp.inp"
         task_type="BP86 def2-TZVPD pe CPCM"
-        task_prefix="RS-pe"
+        task_prefix="RS-sp"
         ;;			
     *) 
         echo "Invalid choice! Please select 1-11."
